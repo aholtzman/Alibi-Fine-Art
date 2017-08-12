@@ -2,12 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 import Button from './Button'
 
-const bg = require('../images/bg.png')
-
 const Background = styled.div`
   height: 100vh;
   background-color: pink;
-  background: url(${bg});
+  background: url(${require('../images/bg.png')}) no-repeat center;
   background-size: cover;
   text-align: center;
   line-height: 200%;
