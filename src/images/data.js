@@ -33,7 +33,7 @@ const data = [
     id: 6,
     name: 'David Gremp',
     image: require('../images/gremp.jpg'),
-    url: 'https://damp-fortress-55891.herokuapp.com'
+    url: 'http://davidgrempphotos.com'
   },
   {
     id: 7,
